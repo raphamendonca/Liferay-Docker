@@ -1,6 +1,5 @@
 # ubuntu latest LTC + java 8u151
-# 
-# VERSION 0.0.1
+# VERSION 0.1
 
  #  initial file with ubuntu latest LTC 
  #    - java jdk 8u151
