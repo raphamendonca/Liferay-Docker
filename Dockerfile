@@ -28,13 +28,13 @@ ENV PATH $PATH:$JAVA_HOME/bin
 #RUN mkdir /opt/liferay-ce-portal/liferay-ce-portal-7.0-ga5 
 #RUN cp -r /opt/liferay-ce-portal/tomcat-8.0.32/ /opt/liferay-ce-portal/tomcat/
 
-
 RUN mkdir /opt/liferay-ce-portal/
 # Liferay data will be stored in a separate data volume
 VOLUME /opt/liferay-ce-portal/
 
 # volumes
 #VOLUME ["/var/liferay-home", "/opt/liferay-ce-portal/"]
+
 # Ports	
 EXPOSE 8080
 
